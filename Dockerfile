@@ -1,4 +1,4 @@
- 
+FROM loadimpact/k6:latest 
 
 # Set the working directory.
 WORKDIR . /k6_Sample
