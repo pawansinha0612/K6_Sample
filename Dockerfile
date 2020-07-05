@@ -12,4 +12,4 @@ EXPOSE 53
 # Command that will run in the CI pnv K8s job
 ENTRYPOINT  k6 run script.js
 
-RUN k6 run script.js
+#RUN k6 run script.js
