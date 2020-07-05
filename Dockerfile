@@ -8,6 +8,6 @@ WORKDIR . /k6_Sample
 EXPOSE 53/tcp
 
 # Command that will run in the CI pnv K8s job
-ENTRYPOINT  k6 run script.js
+#ENTRYPOINT  k6 run script.js
 
-RUN k6 run k6_Samples/cript.js
+RUN k6 run k6_Samples/script.js
